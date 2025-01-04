@@ -1,0 +1,71 @@
+.title_wrap {
+	text-align: center;
+}
+
+.input_box {
+	width: 100%;
+	margin-top: 72px;
+}
+
+.input_wrap {
+	background: #2b2c3e;
+	border: 0;
+	border-radius: 24px;
+	padding: 24px 16px;
+	transition: all 0.5s ease;
+}
+
+input {
+	font-weight: 700;
+	font-size: 20px;
+	line-height: 24px;
+	color: rgba(255, 255, 255, 1);
+	background: #2b2c3e;
+	text-align: center;
+	border: none;
+	outline: none;
+	cursor: pointer;
+}
+
+.input_wrap:hover {
+	background: #2f3048;
+	border: 1px solid #06e9ee;
+}
+
+.input_wrap:hover input {
+	transition: all 0.5s ease;
+	background: #2f3048;
+}
+
+.button_wrap {
+	margin: 72px auto 0;
+}
+button {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+button svg {
+	height: 24px;
+	margin-top: 4px;
+	margin-left: 16px;
+}
+
+.button_text {
+	margin-top: 116px;
+}
+
+.button_text p {
+	margin-top: 0px;
+}
+
+button:hover {
+	background: #7102ff;
+
+	color: rgba(255, 255, 255, 1);
+	transition: all 0.5s ease;
+}
+
+button:hover svg path {
+	fill-opacity: 1;
+}

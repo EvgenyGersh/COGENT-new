@@ -1,0 +1,21 @@
+.container {
+	height: 100vh;
+}
+
+.logo {
+	width: 537px;
+	display: flex;
+	align-items: baseline;
+	margin: auto;
+}
+
+.registration_logo {
+	width: 477px;
+	display: block;
+}
+
+.beta {
+	display: block;
+	width: 50px;
+	margin-bottom: 28px;
+}
