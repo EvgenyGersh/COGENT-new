@@ -26,7 +26,7 @@
 .item_4 {
 	background-repeat: no-repeat;
 	background-position: 0 0;
-	background-size: cover;
+	background-size: 100% 100%;
 }
 
 .item_2 .item_img {
@@ -54,5 +54,129 @@
 .bottom_item {
 	background-repeat: no-repeat;
 	background-position: 0 0;
-	background-size: cover;
+	background-size: 100% 100%;
+}
+
+@media (max-width: 1370px) {
+	.item_2 {
+		width: 47.6%;
+	}
+	.item_3 {
+		width: 49%;
+	}
+	.item_2 .item_img {
+		height: 132px;
+	}
+}
+@media (max-width: 1181px) {
+	.item_1 .description_wrap {
+		width: 29.72%;
+	}
+	.item_1 .item_img {
+		width: 84.28%;
+	}
+	.item_2 .description_wrap .description {
+		width: 94.4%;
+	}
+	.item_3 .description_wrap .description {
+		width: 94.4%;
+	}
+	.item_4 .description_wrap {
+		width: 34.72%;
+	}
+	.item_4 .item_img {
+		width: 68.28%;
+	}
+	.bottom_text {
+		width: 82%;
+	}
+}
+@media (max-width: 1025px) {
+	.item_1 {
+		height: 432px;
+		background: url('../assets/images/creators/top-large-bg-1024.png');
+		background-repeat: no-repeat;
+		background-position: 0 0;
+		background-size: 100% 100%;
+	}
+	.item_1 .description_wrap {
+		width: 100%;
+	}
+	.item_1 .item_img {
+		width: 100%;
+		height: 264px;
+		margin-top: 24px;
+	}
+	.item_1 .description_wrap .description {
+		width: 84.4%;
+	}
+	.item_2 {
+		width: 100%;
+		height: 260px;
+	}
+	.item_2 .item_img {
+		margin-top: 24px;
+	}
+	.item_2 .description_wrap .description {
+		width: 84.4%;
+	}
+	.item_3 {
+		width: 100%;
+		height: 284px;
+		margin-left: 0;
+		background: url('../assets/images/creators/right-small-bg-1024.png');
+		background-repeat: no-repeat;
+		background-position: 0 0;
+		background-size: 100% 100%;
+	}
+	.item_3 .description_wrap .description {
+		width: 84.4%;
+	}
+	.item_3 .item_img {
+		margin-top: 48px;
+	}
+	.item_4 {
+		flex-direction: column;
+		height: 390px;
+		background: url('../assets/images/creators/bot-large-bg-1024.png');
+		background-repeat: no-repeat;
+		background-position: 0 0;
+		background-size: 100% 100%;
+	}
+
+	.item_4 .description_wrap {
+		width: 100%;
+	}
+	.item_4 .item_img {
+		width: 100%;
+		height: 220px;
+		margin-top: 24px;
+	}
+
+	.bottom_1 {
+		background: url('../assets/images/creators/case-1-1024.png');
+	}
+
+	.bottom_2 {
+		background: url('../assets/images/creators/case-2-1024.png');
+	}
+
+	.bottom_3 {
+		background: url('../assets/images/creators/case-3-1024.png');
+	}
+
+	.bottom_item {
+		background-repeat: no-repeat;
+		background-position: 0 0;
+		background-size: 100% 100%;
+	}
+	.bottom_text {
+		width: 98%;
+	}
+}
+@media (max-width: 769px) {
+}
+@media (max-width: 431px) {
+}
+@media (max-width: 375px) {
 }

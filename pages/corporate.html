@@ -31,10 +31,13 @@
 						>Content Creators & Storytellers</a
 					>
 				</nav>
+				<div class="close">
+					<img src="../assets/icons/header/close.svg" alt="close" />
+				</div>
 			</header>
 			<main>
 				<div class="content_wrap">
-					<header class="sticky_header contant_header">
+					<header class="sticky_header content_header">
 						<div class="header_logo">
 							<a href="../index.html">
 								<img
@@ -55,10 +58,16 @@
 					</header>
 					<div class="content">
 						<div class="top_content">
-							<h1>
-								Give your employees the power to create, share scale knowledge
-								instantly.
-							</h1>
+							<div class="title_wrap">
+								<a class="title_img" href="../index.html"
+									><img src="../assets/icons/home/title-arrow.svg" alt="" />
+								</a>
+								<h1>
+									Give your employees the power to create, share scale knowledge
+									instantly.
+								</h1>
+							</div>
+
 							<div class="top_items">
 								<div class="item item_1">
 									<div class="description_wrap">
@@ -72,10 +81,17 @@
 										</div>
 									</div>
 									<div class="item_img">
-										<img
-											src="../assets/images/corporate/top-large.png"
-											alt="images"
-										/>
+										<picture>
+											<source
+												srcset="../assets/images/corporate/top-large.png"
+												media="(min-width: 1025px)"
+											/>
+
+											<img
+												src="../assets/images/corporate/top-large-1024.png"
+												alt="image"
+											/>
+										</picture>
 									</div>
 								</div>
 								<div class="item item_2">
@@ -83,16 +99,23 @@
 										<div class="description">
 											<h5>Disseminate Knowledge Fast</h5>
 											<p>
-												Ensure that important information is accessible across
-												the entire organization in real time.
+												Design non-linear learning paths that adapt to each
+												student’s needs
 											</p>
 										</div>
 									</div>
 									<div class="item_img">
-										<img
-											src="../assets/images/corporate/left-small.png"
-											alt="image"
-										/>
+										<picture>
+											<source
+												srcset="../assets/images/corporate/left-small.png"
+												media="(min-width: 1025px)"
+											/>
+
+											<img
+												src="../assets/images/corporate/left-small-1024.png"
+												alt="image"
+											/>
+										</picture>
 									</div>
 								</div>
 								<div class="item item_3">
@@ -123,10 +146,17 @@
 										</div>
 									</div>
 									<div class="item_img">
-										<img
-											src="../assets/images/corporate/bot-large.png"
-											alt="image"
-										/>
+										<picture>
+											<source
+												srcset="../assets/images/corporate/bot-large.png"
+												media="(min-width: 1025px)"
+											/>
+
+											<img
+												src="../assets/images/corporate/bot-large-1024.png"
+												alt="image"
+											/>
+										</picture>
 									</div>
 								</div>
 							</div>
@@ -167,7 +197,7 @@
 				</div>
 				<div class="form">
 					<form id="signIn" action="">
-						<div class="title_wrap">
+						<div class="form_title">
 							<span class="sign">Sign in</span>
 							<p>
 								Teaching is storytelling. With Cogent – start creating stories

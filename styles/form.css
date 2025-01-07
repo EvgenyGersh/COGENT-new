@@ -9,7 +9,7 @@ form {
 	/* position: sticky;
 	top: 32px; */
 	width: 100%;
-	height: 100%;
+
 	padding: 44px 32px;
 	background: #1e1e2c;
 }
@@ -28,7 +28,7 @@ form p {
 	color: rgba(255, 255, 255, 0.7);
 }
 
-.title_wrap p {
+.form_title p {
 	margin-top: 8px;
 }
 
@@ -190,4 +190,21 @@ input::placeholder {
 
 .networks_icons a:first-child {
 	margin-left: 0;
+}
+
+@media (max-width: 1181px) {
+	.form {
+		width: 46.7%;
+	}
+}
+@media (max-width: 1025px) {
+	.form {
+		width: 53.3%;
+	}
+}
+@media (max-width: 840px) {
+	.form {
+		width: 100%;
+		display: none;
+	}
 }

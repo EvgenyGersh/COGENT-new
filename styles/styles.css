@@ -90,9 +90,24 @@ main {
 	gap: 32px;
 }
 
-.content_wrap {
-	width: 56.84%;
-	max-width: 747px;
-	display: flex;
-	flex-direction: column;
+@media (max-width: 1370px) {
+	.container {
+		background-size: inherit;
+	}
+}
+@media (max-width: 1025px) {
+}
+@media (max-width: 840px) {
+	.container {
+		padding: 0 16px;
+	}
+	main {
+		flex-direction: column;
+	}
+}
+@media (max-width: 769px) {
+}
+@media (max-width: 431px) {
+}
+@media (max-width: 375px) {
 }
