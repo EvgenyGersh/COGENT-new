@@ -13,12 +13,17 @@ form {
 	padding: 44px 32px;
 	background: #1e1e2c;
 }
-
+.form_title {
+	flex-direction: column;
+}
 .sign {
 	font-weight: 700;
 	font-size: 32px;
 	line-height: 36px;
 	color: #fff;
+}
+.form_title p {
+	margin-top: 8px;
 }
 
 form p {

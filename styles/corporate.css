@@ -170,9 +170,195 @@
 	}
 }
 
-@media (max-width: 769px) {
+@media (max-width: 840px) {
+	.item_1 {
+		flex-direction: row;
+		height: 252px;
+	}
+	.item_1 .description_wrap {
+		width: 71.42%;
+	}
+	.item_1 .description_wrap .description {
+		width: 96%;
+	}
+	.item_1 .item_img {
+		width: 86.28%;
+		height: 236px;
+		margin-top: 16px;
+	}
+	.item_2 {
+		flex-direction: row;
+		height: 148px;
+	}
+	.item_2 .description_wrap {
+		width: 56.42%;
+	}
+	.item_2 .description_wrap .description {
+		margin: 0 0 0 16px;
+		width: 82.2%;
+	}
+	.item_2 .item_img {
+		margin-top: 16px;
+	}
+	.item_3 {
+		flex-direction: row;
+		height: 148px;
+	}
+	.item_3 .description_wrap {
+		width: 53.42%;
+	}
+	.item_3 .description_wrap .description {
+		margin: 0 0 0 16px;
+		width: 90.42%;
+	}
+	.item_4 {
+		flex-direction: row;
+		height: 226px;
+	}
+	.item_4 .description_wrap {
+		width: 100%;
+	}
+	.item_4 .description_wrap .description {
+		margin: 0 0 0 16px;
+		width: 100%;
+	}
+	.item_4 .item_img {
+		width: 100%;
+		height: 210px;
+		margin-top: 24px;
+		margin-left: 100px;
+	}
+	.bottom_1 {
+		background: url('../assets/images/corporate/case-1-768.png');
+	}
+
+	.bottom_2 {
+		background: url('../assets/images/corporate/case-2-768.png');
+	}
+
+	.bottom_3 {
+		background: url('../assets/images/corporate/case-3-768.png');
+	}
+
+	.bottom_item {
+		background-repeat: no-repeat;
+		background-position: 0 0;
+		background-size: 100% 100%;
+	}
+	.bottom_text {
+		width: 54%;
+	}
 }
-@media (max-width: 431px) {
+
+@media (max-width: 531px) {
+	.title_wrap {
+		width: 100%;
+	}
+
+	.item_1 {
+		flex-direction: column;
+		height: 376px;
+	}
+	.item_1 .description_wrap {
+		width: 100%;
+		padding: 24px 16px 0;
+	}
+	.item_1 .description_wrap .description {
+		margin: 0;
+		width: 100%;
+	}
+
+	.item_1 .item_img {
+		width: 100%;
+		height: 236px;
+		margin-top: 24px;
+	}
+	.item_2 {
+		flex-direction: column;
+		height: 252px;
+	}
+	.item_2 .description_wrap {
+		width: 100%;
+		padding: 24px 16px 0;
+	}
+	.item_2 .description_wrap .description {
+		margin: 0;
+		width: 100%;
+	}
+	.item_2 .item_img {
+		margin-top: 24px;
+	}
+	.item_3 {
+		flex-direction: column;
+		height: 276px;
+	}
+	.item_3 .description_wrap {
+		width: 100%;
+		padding: 24px 16px 0;
+	}
+	.item_3 .description_wrap .description {
+		margin: 0;
+		width: 100%;
+	}
+	.item_3 .item_img {
+		width: 100%;
+		margin-top: 24px;
+		height: 132px;
+	}
+	.item_4 {
+		flex-direction: column;
+		height: 330px;
+	}
+	.item_4 .description_wrap {
+		width: 100%;
+		padding: 24px 16px 0;
+	}
+	.item_4 .description_wrap .description {
+		margin: 0;
+	}
+	.item_4 .item_img {
+		margin-top: 24px;
+	}
+	.bottom_1 {
+		background: url('../assets/images/corporate/case-1-430.png');
+	}
+
+	.bottom_2 {
+		background: url('../assets/images/corporate/case-2-430.png');
+	}
+
+	.bottom_3 {
+		background: url('../assets/images/corporate/case-3-430.png');
+	}
+	.bottom_item {
+		background-repeat: no-repeat;
+		background-position: 0 0;
+		background-size: 100% 100%;
+	}
+	.bottom_text {
+		width: 92%;
+	}
 }
 @media (max-width: 375px) {
+	.item_1 .item_img {
+		width: 363px;
+		margin-top: 23px;
+	}
+
+	.item_3 .description_wrap .description {
+		width: 100%;
+	}
+	.item_3 .item_img {
+		margin-top: 20px;
+	}
+
+	.item_4 .description_wrap .description {
+		width: 98%;
+	}
+	.item_4 .item_img {
+		width: 430px;
+	}
+	.bottom_text {
+		width: 96%;
+	}
 }

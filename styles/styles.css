@@ -61,9 +61,10 @@ body {
 	margin: 0 auto;
 
 	scrollbar-width: none;
-	&::-webkit-scrollbar {
-		display: none;
-	}
+}
+
+body::-webkit-scrollbar {
+	display: none;
 }
 
 section {
@@ -89,6 +90,28 @@ main {
 	justify-content: space-between;
 	gap: 32px;
 }
+.hidden_btn {
+	border-radius: 20px;
+	padding: 16px 36px;
+	/* width: 736px; */
+	height: 56px;
+	font-weight: 700;
+	font-size: 17px;
+	line-height: 141%;
+	color: #fff;
+	/* margin-top: 32px; */
+
+	border: 0;
+	outline: none;
+	background: #7102ff;
+}
+
+.hidden_btn svg {
+	margin-left: 8px;
+}
+.hidden_btn svg path {
+	fill-opacity: 1;
+}
 
 @media (max-width: 1370px) {
 	.container {
@@ -99,10 +122,11 @@ main {
 }
 @media (max-width: 840px) {
 	.container {
-		padding: 0 16px;
+		padding: 80px 16px 0;
 	}
 	main {
 		flex-direction: column;
+		padding-bottom: 104px;
 	}
 }
 @media (max-width: 769px) {

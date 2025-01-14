@@ -27,8 +27,8 @@
 	justify-content: center;
 	width: 24px;
 	height: 26px;
-	margin-right: 2px;
-	/* display: none; */
+	margin-right: 8px;
+	display: none;
 }
 
 .title_img img {
@@ -193,7 +193,7 @@
 
 .bottom_content {
 	width: 100%;
-	margin-top: 34px;
+	margin-top: 32px;
 }
 
 h3 {
@@ -250,6 +250,22 @@ h3 {
 .bottom_text p span {
 	font-weight: 700;
 	color: #06e9ee;
+}
+
+.hidden_btn {
+	width: 100%;
+	display: flex;
+	align-items: center;
+	margin-top: 32px;
+	justify-content: center;
+	font-weight: 700;
+	font-size: 17px;
+	line-height: 24px;
+	display: none;
+}
+
+.hidden_btn svg {
+	height: 24px;
 }
 
 @media (max-width: 1370px) {
@@ -326,7 +342,7 @@ h3 {
 	}
 	.item_2 .description_wrap .description {
 		text-align: left;
-		margin: 32px 32px 0;
+		/* margin: 32px 32px 0; */
 	}
 	.item_2 .item_img {
 		margin-top: 24px;
@@ -392,13 +408,207 @@ h3 {
 	}
 }
 @media (max-width: 840px) {
+	.title_wrap {
+		width: 90%;
+	}
 	.title_img {
 		display: flex;
 	}
+	.content_wrap {
+		width: 100%;
+		max-width: 100%;
+	}
+
+	.description {
+		margin: 0 0 0 16px;
+	}
+	.description h4 {
+		font-weight: 700;
+		font-size: 20px;
+		line-height: 24px;
+	}
+	.item_1 {
+		flex-direction: row;
+		height: 280px;
+	}
+	.item_1 .description_wrap {
+		width: 76.42%;
+	}
+	.item_1 .description {
+		width: 100%;
+	}
+	.item_1 .item_img {
+		width: 91.28%;
+	}
+	.item_2 {
+		flex-direction: row;
+		height: 140px;
+	}
+	.item_2 .description_wrap {
+		width: 56.42%;
+	}
+	.item_2 .description_wrap .description {
+		margin: 0 0 0 16px;
+		width: 82.2%;
+	}
+	.item_2 .item_img {
+		margin-top: 16px;
+	}
+	.item_3 {
+		flex-direction: row;
+		height: 144px;
+	}
+	.item_3 .description_wrap {
+		width: 53.42%;
+	}
+	.item_3 .description_wrap .description {
+		margin: 0 0 0 16px;
+		width: 92.42%;
+	}
+	.item_4 {
+		flex-direction: row;
+		height: 280px;
+	}
+	.item_4 .description_wrap {
+		width: 84.42%;
+	}
+	.item_4 .description_wrap .description {
+		margin: 0 0 0 16px;
+		width: 96.42%;
+	}
+	h3 {
+		font-size: 24px;
+		line-height: 28px;
+	}
+	.bottom_1 {
+		background: url('../assets/images/home/case-1-768.png');
+	}
+
+	.bottom_2 {
+		background: url('../assets/images/home/case-2-768.png');
+	}
+
+	.bottom_3 {
+		background: url('../assets/images/home/case-3-768.png');
+	}
+	.bottom_item {
+		padding: 16px;
+		margin-bottom: 24px;
+		border-radius: 16px;
+		background-repeat: no-repeat;
+		background-position: 0 0;
+		background-size: 100% 100%;
+	}
+	.hidden_btn {
+		display: flex;
+	}
 }
-@media (max-width: 768px) {
-}
-@media (max-width: 431px) {
+
+@media (max-width: 531px) {
+	.title_wrap {
+		width: 100%;
+		align-items: flex-start;
+	}
+
+	.item_1 {
+		flex-direction: column;
+		height: 408px;
+	}
+	.item_1 .description_wrap {
+		width: 100%;
+		padding: 24px 16px 0;
+	}
+	.item_1 .description_wrap .description {
+		margin: 0;
+	}
+
+	.item_1 .item_img {
+		width: 100%;
+		height: 264px;
+		margin-top: 48px;
+	}
+	.item_2 {
+		flex-direction: column;
+		height: 252px;
+	}
+	.item_2 .description_wrap {
+		width: 100%;
+		padding: 24px 16px 0;
+	}
+	.item_2 .description_wrap .description {
+		margin: 0;
+		width: 100%;
+	}
+	.item_2 .item_img {
+		margin-top: 24px;
+	}
+	.item_3 {
+		flex-direction: column;
+		height: 263px;
+	}
+	.item_3 .description_wrap {
+		width: 100%;
+		padding: 24px 16px 0;
+	}
+	.item_3 .description_wrap .description {
+		margin: 0;
+	}
+	.item_3 .item_img {
+		width: 100%;
+		margin-top: 24px;
+		height: 119px;
+	}
+	.item_4 {
+		flex-direction: column;
+		height: 404px;
+	}
+	.item_4 .description_wrap {
+		width: 100%;
+		padding: 24px 16px 0;
+	}
+	.item_4 .description_wrap .description {
+		margin: 0;
+	}
+	.item_4 .item_img {
+		margin-top: 24px;
+	}
+	.bottom_1 {
+		background: url('../assets/images/home/case-1-430.png');
+	}
+
+	.bottom_2 {
+		background: url('../assets/images/home/case-2-430.png');
+	}
+
+	.bottom_3 {
+		background: url('../assets/images/home/case-3-430.png');
+	}
+	.bottom_item {
+		background-repeat: no-repeat;
+		background-position: 0 0;
+		background-size: 100% 100%;
+	}
 }
 @media (max-width: 375px) {
+	.item_1 .item_img {
+		width: 430px;
+		margin-top: 24px;
+	}
+
+	.item_3 .description_wrap .description {
+		width: 100%;
+	}
+	.item_3 .item_img {
+		margin-top: 20px;
+	}
+
+	.item_4 .description_wrap .description {
+		width: 98%;
+	}
+	.item_4 .item_img {
+		width: 430px;
+	}
+	.bottom_text {
+		width: 96%;
+	}
 }
