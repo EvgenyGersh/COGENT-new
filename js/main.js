@@ -1,15 +1,22 @@
 document.addEventListener('DOMContentLoaded', () => {
-	function inpuiLink() {
-		;[...document.querySelectorAll('input')].forEach((s, i, arr) => {
-			console.log(arr[i].checked)
-			s.addEventListener('input', () => {
-				console.log()
-				window.location.href = s.value
-			})
+	function inputLink() {
+		const inputs = document.querySelectorAll('input')
+		console.log(inputs, 'inputs')
+
+		let checkedInputs = []
+
+		inputs.forEach(item => {
+			if (!item.checked) {
+				return
+			}
+
+			checkedInputs.push(item.value)
 		})
+
+		if (checkedInputs.length) {
+			window.location.href = checkedInputs[0]
+		}
 	}
-	inpuiLink()
-	// document.querySelector('button').addEventListener('click', () => {
-	// 	window.location.href = s.value
-	// })
+
+	document.querySelector('.continue_btn').addEventListener('click', inputLink)
 })
