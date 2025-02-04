@@ -216,6 +216,9 @@ input::placeholder {
 	form {
 		top: 124px;
 	}
+	.networks_wrap {
+		margin-top: 84px;
+	}
 }
 
 @media (max-width: 1181px) {

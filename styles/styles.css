@@ -135,7 +135,8 @@ main {
 		background-position: -171px 0;
 	}
 	.container {
-		padding: 80px 16px 0;
+		/* padding: 80px 16px 0; */
+		padding: 16px 16px 0;
 	}
 	main {
 		flex-direction: column;
