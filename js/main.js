@@ -15,11 +15,6 @@ document.addEventListener('DOMContentLoaded', () => {
 			button.classList.add('button_active')
 		})
 	})
-	// function activeBtn() {
-	// 	document
-	// 		.querySelector('.form_home .button_wrap button ')
-	// 		.classList.add('button_active')
-	// }
 
 	function inputLink() {
 		const inputs = document.querySelectorAll('input')
@@ -41,13 +36,11 @@ document.addEventListener('DOMContentLoaded', () => {
 
 	document.querySelector('.continue_btn').addEventListener('click', inputLink)
 
-	// document
-	// 	.getElementById('radioForm')
-	// 	.addEventListener('change', function (event) {
-	// 		if (event.target.type === 'radio') {
-	// 			window.location.href = event.target.value
-	// 		}
-	// 	})
-	// }
-	// document.querySelector('.continue_btn').addEventListener('click', inputLink)
+	function adjustFooter() {
+		const footer = document.querySelector('.mobile_header')
+		footer.style.bottom = window.innerHeight < screen.height ? '60px' : '0'
+	}
+
+	window.addEventListener('resize', adjustFooter)
+	adjustFooter()
 })
