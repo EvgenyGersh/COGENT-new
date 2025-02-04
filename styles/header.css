@@ -7,7 +7,7 @@ header {
 
 	height: 64px;
 	backdrop-filter: blur(30px);
-	--webkit-backdrop-filter: blur(30px);
+	-webkit-backdrop-filter: blur(30px);
 	background: rgba(30, 30, 44, 0.75);
 }
 
@@ -86,6 +86,7 @@ header {
 	backdrop-filter: blur(10px);
 	-webkit-backdrop-filter: blur(30px);
 	background: rgba(30, 30, 44, 0.1);
+	padding-bottom: env(safe-area-inset-bottom);
 	display: none;
 }
 
