@@ -16,8 +16,7 @@ header {
 	top: 32px;
 
 	width: 100%;
-	/* border-radius: 0; */
-	/* height: 48px; */
+	z-index: 100;
 }
 
 .header_1024 {
