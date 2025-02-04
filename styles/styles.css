@@ -51,7 +51,6 @@ body {
 	min-height: 100%;
 	max-width: 1980px;
 	background: #131313;
-
 	font-family: 'Plus Jakarta Sans', sans-serif;
 	font-weight: 400;
 	font-style: normal;
@@ -59,8 +58,11 @@ body {
 	color: white;
 	overflow-x: hidden;
 	margin: 0 auto;
-
 	scrollbar-width: none;
+	background-image: url('../assets/images/home/home-bg.png');
+	background-size: 100% 100%;
+	background-position: 0 0;
+	background-repeat: no-repeat;
 }
 
 body::-webkit-scrollbar {
@@ -75,10 +77,10 @@ section {
 
 .container {
 	max-width: 1440px;
-	background-image: url('../assets/images/home/home-bg.png');
+	/* background-image: url('../assets/images/home/home-bg.png');
 	background-size: 100% 100%;
 	background-position: 0 0;
-	background-repeat: no-repeat;
+	background-repeat: no-repeat; */
 	padding: 32px 56px;
 	margin: 0 auto;
 }
@@ -119,19 +121,32 @@ main {
 	}
 }
 @media (max-width: 1025px) {
+	body {
+		background-size: 132% 124%;
+	}
+	#home {
+		background-size: 264% 148%;
+	}
 }
 @media (max-width: 840px) {
+	#home {
+		background-size: 147% 148%;
+
+		background-position: -171px 0;
+	}
 	.container {
 		padding: 80px 16px 0;
 	}
 	main {
 		flex-direction: column;
-		padding-bottom: 104px;
+		padding-bottom: 168px;
 	}
 }
-@media (max-width: 769px) {
-}
 @media (max-width: 431px) {
+	#home {
+		background-size: 216% 148%;
+		background-position: -96px 0;
+	}
 }
 @media (max-width: 375px) {
 }

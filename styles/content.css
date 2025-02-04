@@ -254,14 +254,15 @@ h3 {
 
 .hidden_btn {
 	width: 100%;
+	height: 56px;
 	display: flex;
 	align-items: center;
-	margin-top: 32px;
+	margin-top: 16px;
 	justify-content: center;
 	font-weight: 700;
 	font-size: 17px;
 	line-height: 24px;
-	display: none;
+	/* display: none; */
 }
 
 .hidden_btn svg {
@@ -508,6 +509,9 @@ h3 {
 	.title_wrap {
 		width: 100%;
 		align-items: flex-start;
+	}
+	form p {
+		text-align: left;
 	}
 
 	.item_1 {

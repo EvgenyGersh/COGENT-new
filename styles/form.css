@@ -30,6 +30,7 @@ form p {
 	font-weight: 400;
 	font-size: 17px;
 	line-height: 24px;
+	text-align: center;
 	color: rgba(255, 255, 255, 0.7);
 }
 
@@ -109,6 +110,21 @@ input::placeholder {
 	line-height: 24px;
 	color: rgba(255, 255, 255, 0.4);
 	cursor: pointer;
+}
+.button_text {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	margin-top: 16px;
+}
+
+.button_text a {
+	font-weight: 400;
+	font-size: 15px;
+	line-height: 20px;
+	color: #06e9ee;
+	margin-top: 8px;
 }
 
 .bottom_text {
@@ -196,6 +212,11 @@ input::placeholder {
 .networks_icons a:first-child {
 	margin-left: 0;
 }
+@media (max-width: 1360px) {
+	form {
+		top: 124px;
+	}
+}
 
 @media (max-width: 1181px) {
 	.form {
@@ -211,5 +232,10 @@ input::placeholder {
 	.form {
 		width: 100%;
 		display: none;
+	}
+}
+@media (max-width: 531px) {
+	form p {
+		text-align: left;
 	}
 }
